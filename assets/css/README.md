@@ -1,75 +1,11 @@
-﻿# Habit-Tracker
-You cannot able to keep your habit or want to create new habit.
-Then try this amazing app Habit Tracker
+# Habit Tracker
 
-A basic Habit Tracking System. Tech Stack : HTML, CSS, JS, Node.js
+Inspired by James Clear's [Atomic Habits](https://jamesclear.com/atomic-habits), this app helps users stick to their habits by employing the [Seinfeld method](https://jamesclear.com/stop-procrastinating-seinfeld-strategy). Remember, habits are the compound interest of personal development -- a daily 1% improvemnt turns into 37x over a year :)
 
-### Home :
+Users can login with a Google account and create new habits. Each day users can mark habits as complete. Seeing a record of successful days motivates users to not break the chain.
 
-![alt text](home.png)
+This responsive app is created with Angular 7, mdbootstrap, and hosted on Firebase.
 
-### Habit :
+[Start Tracking your Habits (free)](https://habittracker.me)
 
-![alt text](rotine.png)
-
-## Technology Stack
-- EJS
-- SCSS
-- NodeJS
-- Express
-
-## How-To-Use
-
-- Clone this project
-- Start by installing npm and mongoDB if you don't have them already.
-- Run the Mongo Server.
-- Navigate to Project Directory
-    ```
-    cd Habit-Tracker
-    ```
-- run following commands :
-    ```
-    npm install 
-    ```
-    ```
-    npm start
-    ```
-## Basic-Features
-- Home page includes all the habits you have added. You can Add or Delete any habit from here.
-- Habits page here you can mark a particular habit for a date marked or not here you can also search by dates.
-   
-## Directory Structure and flow of The Code
-This code follows MVC pattern and hence everything is differentiated and well managed:
-
-    Habit_tracker
-        |-----assets
-        |       |--- css
-        |       |     |-- habit.css
-        |       |     |-- home.css
-        |       |     └-- layout.css
-        |       |--- js
-        |       |     |-- habit.js
-        |       |     └-- moment.js
-        |       |--- sass
-        |             |-- habit.scss
-        |             |-- home.scss
-        |             └-- layout.scss
-        |------ config
-        |         └--- mongoose.js
-        |------ controllers
-        |         └--- habit_controllers.js
-        |------ models
-        |         └--- habit.js
-        |------ routers
-        |         └--- index.js
-        |------ views
-        |         |--- habit..ejs
-        |         |--- home.ejs
-        |         └--- layout.ejs
-        |------ .gitignore
-        |------ app.js
-        |------ package.json
-        |------ package-lock.json
-        └------ README.md
-
-Happy Coding :)
+Feedback appreciated.
